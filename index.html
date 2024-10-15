@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="heading">
+		<h3>Photo<span>Gallery</span></h3>
+	</div>
+	<div class="box">
+		<div class="dream">
+			<img src="imagw/1 (1).jpeg" alt="Image 1" class="gallery-image" onclick="showImageDetails(this)" data-name="Goddess">
+			<img src="imagw/1 (2).jpeg" alt="Image 2" class="gallery-image" onclick="showImageDetails(this)"data-name="Reader girl">
+			<img src="imagw/1 (3).jpeg" alt="Image 3" class="gallery-image" onclick="showImageDetails(this)" data-name="Kitty inside bookshelf">
+			<img src="imagw/1 (4).jpeg" alt="Image 4" class="gallery-image" onclick="showImageDetails(this)"data-name="Kathak">
+			<img src="imagw/1 (5).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Nostalgic">
+			<img src="imagw/2 (1).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Black kitty">
+			<img src="imagw/2 (2).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Books">
+			<img src="imagw/2 (3).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl photograpy">
+		</div>
+
+		<div class="dream">
+			<img src="imagw/1 (6).jpeg" alt="Image 6" class="gallery-image" onclick="showImageDetails(this)" data-name="Dancer">
+			<img src="imagw/1 (7).jpeg" alt="Image 7" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl with Camera">
+			<img src="imagw/1 (8).jpeg" alt="Image 8" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl with Camera">
+			<img src="imagw/1 (9).jpeg" alt="Image 9" class="gallery-image" onclick="showImageDetails(this)"data-name="Cute girl">
+			<img src="imagw/1 (10).jpeg" alt="Image 10" class="gallery-image" onclick="showImageDetails(this)"data-name="Writer">
+			<img src="imagw/2 (4).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl in library">
+			<img src="imagw/2 (5).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Princess">
+			<img src="imagw/2 (6).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Free spirit">
+		</div>
+
+		<div class="dream">
+			<img src="imagw/1 (11).jpeg" alt="Image 11" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl Poses">
+			<img src="imagw/1 (12).jpeg" alt="Image 12" class="gallery-image" onclick="showImageDetails(this)"data-name="Girl with Camera">
+			<img src="imagw/2 (7).jpeg" alt="Image 1" class="gallery-image" onclick="showImageDetails(this)"data-name="Be happy">
+			<img src="imagw/3.jpeg" alt="Image 2" class="gallery-image" onclick="showImageDetails(this)"data-name="traditionl">
+			<img src="imagw/4 (1).jpeg" alt="Image 3" class="gallery-image" onclick="showImageDetails(this)"data-name="enjoy">
+			<img src="imagw/4 (2).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="Beauty">
+			<img src="imagw/4 (3).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="rain">
+			<img src="imagw/4 (5).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="happiness of playing in swing">
+		</div>
+	</div>
+
+	<!-- Preview Section -->
+	<div id="imagePreview" class="image-preview" style="display: none;">
+		<img id="previewImg" src="" alt="Preview" />
+		<div>
+			 <p id="imageName"></p>
+			<p id="imageInfo"></p>
+			<a id="downloadLink" href="" download="">Download Image</a>
+			<button onclick="closePreview()">Close</button>
+		</div>
+	</div>
+
+	<div class="btn">
+		<a href="#">More</a>
+	</div>
+</div>
+
+<script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
