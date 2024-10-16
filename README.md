@@ -9,7 +9,6 @@ This project is a simple and elegant image gallery displaying a collection of im
 - Click on an image to view a larger preview.
 - Slide through the images with next and previous arrows.
 - Download option for each image.
-- Grey background to enhance the viewing experience.
 
 ## Technologies Used:
 - **HTML5**
