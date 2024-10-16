@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Image Gallery</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style5.css">
 </head>
 <body>
 <div class="container">
@@ -45,23 +45,21 @@
 			<img src="imagw/4 (5).jpeg" alt="Image 5" class="gallery-image" onclick="showImageDetails(this)"data-name="happiness of playing in swing">
 		</div>
 	</div>
-
-	<!-- Preview Section -->
 	<div id="imagePreview" class="image-preview" style="display: none;">
+     <button class="arrow left-arrow" onclick="prevImage()">&#10094;</button>
 		<img id="previewImg" src="" alt="Preview" />
 		<div>
+	<button class="arrow right-arrow" onclick="nextImage()">&#10095;</button>
 			 <p id="imageName"></p>
 			<p id="imageInfo"></p>
-			<a id="downloadLink" href="" download="">Download Image</a>
+			<a id="downloadLink" href="" download="">Download Image</a> 
 			<button onclick="closePreview()">Close</button>
 		</div>
 	</div>
-
 	<div class="btn">
 		<a href="#">More</a>
 	</div>
 </div>
-
-<script src="script.js"></script> <!-- Link to your JavaScript file -->
+<script src="script5.js"></script>
 </body>
 </html>
